@@ -154,10 +154,6 @@ p {
   opacity: 0;
 }
 
-.animate-overlay {
-  animation: overlay 3s forwards;
-}
-
 @media (min-width: 730px) {
   section {
     margin: 0 4em;
@@ -235,20 +231,5 @@ p {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes overlay {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
